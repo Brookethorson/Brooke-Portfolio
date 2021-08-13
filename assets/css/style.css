@@ -8,7 +8,7 @@
     --text-color-one: #4c5e19;
     --text-color-two: black;
     --background-color: #f2ccb9;
-    --border-color: #f9f295;
+    --border-color: black;
     --header-footer-color: #FFFFFF;
 }
 
@@ -20,7 +20,7 @@ body {
 
 /*header style start*/
  header {
-     padding: 25px;
+     padding: 15px;
      background-color: var(--header-footer-color);
      display: flex;
      justify-content: space-between;
@@ -65,30 +65,143 @@ body {
      background-color: var(--background-color);
  }
 
+ /*hero style start*/
+ .hero {
+     background-image: url("../images/new.jpg");
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     flex-wrap: wrap;
+     padding-bottom: 50px;
+ } 
+
+ .profile-picture {
+     position: relative;
+     border: var(--text-color-one) 3px solid;
+     top: 20px;
+     left: 40px;
+     height: 200px;
+     width: 200px;
+     border-radius: 70%;
+ }
+
+ .hero h2 {
+ }
+
+/*about me*/
+.about {
+    margin: 30px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.section-title {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0 0 0 20px;
+    width: 80%;
+}
+
+.border {
+    border-right: 3px solid var(--text-color-one);
+    height: 100px;
+}
+
+.info-text {
+    flex: 70%;
+}
+
+.info-text p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 50px;
+    width: 100%
+}
+
+/*about me style end*/
 
 
+/*work style start*/
 
-
-
-
-
-
-/*Work Style Start*/
+.work {
+    display: flex;
+}
 
 .container {
-   display: flex;;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
+    margin: 30px auto;
+    padding-bottom: 50px;
+    
+
+
+   
 }
 
 .gallery {
-    width: 20px
-
+    display: flex;
+    margin-left: 50px;
+    width: 100px;
 }
 
+
+
+/*contact me*/
+.contact {
+        margin: 30px auto;
+        padding-bottom: 30px;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.contact-info {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 50px;
+    width: 100%
+}
+
+
+
+
+/*resume*/
+
+.resume {
+    margin: 30px auto;
+    padding-bottom: 30px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.link-text {
+    flex: 70;
+}
+
+
+.resume p{
+    font-size: 18px;
+    text-align: left;
+    margin-left: 100px;
+    width: 100%
+}
+
+.link-text {
+    flex: 70;
+   
+}
 
 
 
@@ -98,3 +211,5 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
