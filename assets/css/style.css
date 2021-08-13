@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color-one: #4c5e19;
+    --text-color-two: black;
+    --background-color: #f2ccb9;
+    --border-color: #f9f295;
+    --header-footer-color: #FFFFFF;
+}
+
+.container {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery {
+    display: flex;
+    flex: 2 70%;
+    flex-wrap: wrap;
+    align-items: center;
+}
