@@ -90,13 +90,11 @@ body {
 
 /*about me*/
 .about {
-    margin: 30px auto;
-    padding-bottom: 50px;
-    width: 80%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding: 50px;
 }
 
 .flex-row {
@@ -105,15 +103,17 @@ body {
 }
 
 .section-title {
+    display: flex;
     font-size: 25px;
     font-family: sans-serif;
     margin: 0 0 0 20px;
     width: 80%;
 }
 
-.border {
+.border-one {
     border-right: 3px solid var(--text-color-one);
     height: 100px;
+    flex: 0 1%;
 }
 
 .info-text {
@@ -132,84 +132,70 @@ body {
 
 
 /*work style start*/
-
-.work {
+.container {
     display: flex;
+   
 }
 
-.container {
-    margin: 30px auto;
-    padding-bottom: 50px;
-    
-
-
+.container div {
    
+}
+
+.work-box {
+  
 }
 
 .gallery {
     display: flex;
-    margin-left: 50px;
-    width: 100px;
+    flex-wrap: wrap
+    ;
+    width: 100%;
+    height: auto;
 }
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
 
 
 
 /*contact me*/
-.contact {
-        margin: 30px auto;
-        padding-bottom: 30px;
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
+.border-three {
+    border-right: 3px solid var(--text-color-one);
+    height: 100px;
+    flex: 0 1%;
 }
-
 .contact-info {
-    font-size: 18px;
-    text-align: left;
-    margin-left: 50px;
-    width: 100%
+    flex: 150;
 }
 
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
 
-
+.contact-info ul li a{
+    margin: 0 40px;
+    font-size: 20px;
+    color: var(--text-color-one);
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+}
 
 /*resume*/
 
-.resume {
-    margin: 30px auto;
-    padding-bottom: 30px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    
-}
-
-.link-text {
-    flex: 70;
-}
-
-
-.resume p{
-    font-size: 18px;
-    text-align: left;
-    margin-left: 100px;
-    width: 100%
-}
-
-.link-text {
-    flex: 70;
-   
-}
-
-
-
-footer {
-    padding: 25px;
-    background-color: var(--header-footer-color);
-    display: flex;
-    justify-content: center;
-}
+ 
 
 
