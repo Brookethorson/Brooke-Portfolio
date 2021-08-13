@@ -131,12 +131,10 @@ body {
 
 /*work style start*/
 .container  {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 15px;
-    width: 80%;
+    margin: 20px auto;
+    padding: 50px;
 }
+
 
 .gallery {
     display: grid;
@@ -146,6 +144,9 @@ body {
     margin-left: 30px;
 }
 
+.image-text {
+    position: relative;
+}
 
 .gallery-img {
     width: 100%;
@@ -159,7 +160,7 @@ body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 4;
-    position: absolute
+    position: relative;
 }
 
 .run-buddy {
@@ -170,7 +171,7 @@ body {
 }
 
 .img-one {
-    grid-column-start: 3;
+    grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5; 
@@ -198,7 +199,7 @@ body {
 
 
 /*contact me*/
-.border-three {
+.border-one {
     border-right: 3px solid var(--text-color-one);
     height: 100px;
     flex: 0 1%;
