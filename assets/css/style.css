@@ -20,7 +20,7 @@ body {
 
 /*header style start*/
  header {
-     padding: 15px;
+     padding: 20px;
      background-color: var(--header-footer-color);
      display: flex;
      justify-content: space-between;
@@ -34,16 +34,15 @@ body {
      margin: 0;
  }
 
+ header nav {
+    margin: 10px;
+}
+
  header a {
      text-decoration: none;
      color: var(--text-color-one);
  }
 
- header nav {
-     margin: 10px 0;
-     padding: 0;
-     box-sizing: border-box;
- }
 
  header nav ul {
      display: flex;
@@ -56,7 +55,7 @@ body {
  header nav ul li a{
      margin: 0 30px;
      font-weight: lighter;
-     font-size: 25px;
+     font-size: 1.25vw;
      border-bottom: 2px solid;
      padding-bottom: 2px;
  }
@@ -65,35 +64,49 @@ body {
      background-color: var(--background-color);
  }
 
+section {
+    padding: 10px;
+}
  /*hero style start*/
  .hero {
      background-image: url("../images/Hero.jpg");
+     height: 325px;
      background-size: cover;
      background-position: center;
      display: flex;
+     justify-content: flex-end;
      flex-wrap: wrap;
-     padding-bottom: 80px;
+     position: relative;
  } 
 
  .profile-picture {
-     position: relative;
+     position: absolute;
      border: var(--text-color-one) 3px solid;
-     top: 20px;
-     left: 40px;
-     height: 200px;
-     width: 200px;
+     top: 50px;
+     left: 100px;
+     height: 250px;
+     width: 250px;
      border-radius: 50%;
  }
+
+ .hero h2 {
+     font-size: 28px;
+     margin-top: 270px;
+     border: 3px solid var(--text-color-one);
+     background-color: var(--header-footer-color);
+ }
+
+ /*hero style end*/
 
 
 /*about me*/
 .about {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
-    margin: 30px 60px;
+    margin: 30px 50px;
     width: 80%;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .flex-row {
@@ -104,16 +117,24 @@ body {
 .section-title {
     font-size: 35px;
     font-family: sans-serif;
-    margin: 0 0 0 80px;
+    margin: 0 0px 0px 80px;
     width: 50%;
 }
 
-.border1 {
+.section-info {
+    flex: 2 20%;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+.border {
     border-right: 3px solid var(--text-color-one);
     height: 100px;
 }
 
-
+.info-text {
+    flex: 60%;
 }
 
 .info-text p {
@@ -127,15 +148,16 @@ body {
 /*about me style end*/
 
 /*work style start*/
-.container  {
-    margin: 20px;
-    padding: 50px;
+.border-one {
+    border-right: 3px solid var(--text-color-one);
+    height: 400px;
+    margin-left: 65px;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5,10vw);
+    grid-template-rows: repeat(2,5vw);
     grid-gap: 10px;
     margin-left: 30px;
 }
@@ -177,6 +199,7 @@ body {
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5; 
+    height: 200px;
     opacity: 0.5;
 }
 .img-one:hover {
@@ -200,6 +223,7 @@ body {
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5; 
+    height: 200px;
     opacity: 0.5;    
 }
 
@@ -221,14 +245,8 @@ figcaption {
 }
 
 /*contact me style start*/
-.border-one {
-    border-right: 3px solid var(--text-color-one);
-    height: 100px;
-    flex: 0 1%;
-}
-.contact-info {
-    flex: 150;
-}
+
+
 
 .contact-info ul {
     display: flex;
@@ -250,6 +268,10 @@ figcaption {
 }
 /*contact me style end*/
 
+/*resume*/
+
+
+
 /*footer style start*/
 footer {
     padding: 15px;
@@ -257,6 +279,8 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+/*footer style end*/
 
 
 
