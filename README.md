@@ -16,9 +16,9 @@ This is not an active application but instead a test.
 
 ## Screenshot
  
-![alt text]
-![alt text]
-![alt text]
+![alt text](https://github.com/Brookethorson/Brooke-Portfolio/blob/main/assets/images/Screengrab.JPG)
+![alt text](https://github.com/Brookethorson/Brooke-Portfolio/blob/main/assets/images/Screengrab1.JPG)
+
 
 ## Link 
 
