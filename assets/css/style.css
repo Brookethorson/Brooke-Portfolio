@@ -67,6 +67,9 @@ body {
 section {
     padding: 10px;
 }
+
+/* header style end*/
+
  /*hero style start*/
  .hero {
      background-image: url("../images/Hero.jpg");
@@ -98,7 +101,6 @@ section {
 
  /*hero style end*/
 
-
 /*about me*/
 .about {
     display: flex;
@@ -121,21 +123,13 @@ section {
     width: 50%;
 }
 
-
 .border {
     border-right: 2.5px solid;
     height: 100px;
     margin-left: 50px;
 }
 
-.info-text {
-     /* flex: 100%;  */
-}
-
 .info-text p {
-    /* display: flex;
-    align-items: left;
-    justify-content: center; */
     font-size: 18px;
     text-align: left;
     line-height: 1.5;
@@ -231,7 +225,6 @@ section {
     opacity: 1.0;
 }
 
-
 figcaption {
     position: absolute;
     margin-top: -45px;
@@ -240,8 +233,9 @@ figcaption {
     color:var(--text-color-one);
     border:solid 2.5px black;
     background-color: var(--header-footer-color);
-    /* background-size: fit; */
 }
+
+/*work style end*/
 
 /*contact me style start*/
 .border-two {
@@ -285,8 +279,7 @@ figcaption {
     justify-content: center;
 }
 
-
- .resume-text p {
+.resume-text p {
      display: flex;
      flex-wrap: wrap;
      color: var(--text-color-one);
@@ -296,17 +289,13 @@ figcaption {
 
 /*resume style end*/
 
-
 /*footer style start*/
 footer {
     padding: 15px;
     background-color: var(--header-footer-color);
     display: flex;
     justify-content: center; 
-
 }
-
-
 /*footer style end*/
 
 
@@ -323,7 +312,7 @@ footer {
         }
 
         header nav ul {
-            margin top: 5px;
+            margin-top: 5px;
             width: 100%;
             justify-content: center;
             line-height: 1;
@@ -391,8 +380,8 @@ footer {
             margin-left: 30px;
         }
 
-    
     }
+/*media query end*/
       
 
      
